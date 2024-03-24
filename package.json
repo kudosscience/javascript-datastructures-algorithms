@@ -32,7 +32,7 @@
     "generate-report2": "nyc --report-dir coverage npm run test",
     "go": "npm run clean && npm run lint && npm run build && npm run test",
     "webpack": "webpack --env build",
-    "serve": "http-server"
+    "serve": "http-server -c-1"
   },
   "nyc": {
     "include": [
@@ -65,7 +65,7 @@
     "babel-plugin-transform-es2015-modules-umd": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
-    "codecov": "^3.2.0",
+    "codecov": "^3.7.1",
     "eslint": "^5.15.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
@@ -77,10 +77,10 @@
     "tslint": "5.14.0",
     "typescript": "3.3.3333",
     "webpack": "^4.29.6",
-    "webpack-cli": "2.1.1",
-    "yargs": "13.2.2"
+    "webpack-cli": "3.3.0",
+    "yargs": "^16.1.0"
   },
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.12.3"
   }
 }
